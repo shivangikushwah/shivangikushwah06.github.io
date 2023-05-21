@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shivangi Kushwah</title>
+    <link rel="stylesheet" href="shivu.css">
+    <script src="https://kit.fontawesome.com/c0be592a40.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+        .firstSection{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 50px;
+        }
+      
+        .leftSection .btnn{
+            padding:12px;
+            background: white;
+            color: red;
+            border: 2px solid rgb(233, 16, 16);
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .leftSection .btnn a{
+            text-decoration: none;
+            color: red;
+        }
+        .rightSection img{
+            width: 60%;
+            margin: 50px 10px;
+            border-radius: 10%;
+        }
+        .purple{
+            color: #ff004f;
+        }
+        #element{
+            color: #ff004f;
+        }
+        .social-icons a i{
+            color: white;
+        }
+        .social-icons a i:hover{
+            color: #ff004f;
+        }
+        @media only screen and (max-width: 600px){
+            .rightSection img{
+                width: 80%;
+            }
+            .leftSection{
+                margin-top: 100px;
+                font-size: 20px;
+            }
+            .leftSection .btnn{
+                margin-top: 10px;
+                padding: 6px;
+                font-size: 10px;
+            }
+            .social-icons a i{
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, I am <span class="purple">
+                    Shivangi Kushwah
+                </span>
+                <div>and I am a</div>
+                <span id="element"></span>
+                <div class="bottons">
+                    <button class="btnn" ><a href="resume.pdf">Download Resume</a></button>
+                    <button class="btnn"><a href="shivuu.html">Explore Me</a></button>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/https:/www.linkedin.com/in/shivangi-kushwah-05b37121b/?_l=en_US"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/https:/github.com/shivangikushwah"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/gi_van_shi.24/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/shivangi.kushwah.332"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/Shiv_u_24"><i class="fa-brands fa-twitch"></i></a>
+                </div>
+            </div>
+            <div class="rightSection"><img src="s5.jpeg" alt=""></div>
+            
+        </section>
+    </main>
+        
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', '&amp; Software Engineer.'],
+          typeSpeed: 100,
+        });
+      </script>
+</body>

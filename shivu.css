@@ -131,6 +131,13 @@ nav ul li a:hover::after{
     color:#bb0b0b;
     font-size: 14px;
 }
+div#training {}.tab-contents.active-tab {
+    animation: fadeIn 0.8s 1 normal forwards;
+}
+@keyframes fadeIn {
+    from{opacity:0;}
+    to{opacity:1}
+}
 .tab-contents{
     display: none;
 }

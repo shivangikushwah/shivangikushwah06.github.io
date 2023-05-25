@@ -13,7 +13,7 @@ html{
 }
 #header{
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     /* background-image:url(s3.jpeg); */
     display: flex;
     align-items: center;

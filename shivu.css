@@ -266,7 +266,7 @@ div#training {}.tab-contents.active-tab {
     margin: 50px auto;
     width: fit-content;
     border: 1px solid #ff004f;
-    padding: 14px 50px;
+    padding: 14px 30px;
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
@@ -341,18 +341,35 @@ nav .fa-solid{
 
 @media only screen and (max-width: 500px){
     
+    .image img{
+        display: flex;
+        align-items: left;
+        justify-content:space-around;
+        width: 70%;
+        height: 50%;
+    }
+    .image{
+        flex-basis: 50%;
+        margin-right: 2px;
+    }
     .header-text{
-        margin-top: 100%;
+        margin-top: 100px;
         font-size: 30px;
     }
     .header-text h1{
+        margin-top: 40px;
         font-size: 30px;
     }
+    
     nav .fa-solid{
         display:block;
         font-size: 25px;
-        
     }
+    .btn.btn2{ 
+        padding:10px 10px;
+        font-size: 18px;
+    } 
+   
     nav ul{
         background: #ff004f;
         position: fixed;

@@ -7,11 +7,15 @@
     <title>SHIVANGI'S PORTFOLIO</title>
     <link rel="stylesheet" href="shivu.css">
     <script src="https://kit.fontawesome.com/c0be592a40.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c0be592a40.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
         <div class="container">
             <nav>
+                <div>
+                    <h1>portfolio</h1>
+                </div>
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -24,9 +28,18 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Software Engineer</p>
-                <h1>Hi, I'm <span>Shivangi</span> <br>Kushwah from <br>Agra</h1>
+                
+                <h1>Hello, it's me <br>Shivangi Kushwah<br>and I'm a</h1>
+                <span id="element"></span>
             </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/https:/www.linkedin.com/in/shivangi-kushwah-05b37121b/?_l=en_US"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/https:/github.com/shivangikushwah"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/gi_van_shi.24/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/shivangi.kushwah.332"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/Shiv_u_24"><i class="fa-brands fa-twitch"></i></a>
+            </div>
+            <a href="#about" class="btn btn2">Explore Me</a>
             <a href="shivangi.resume.pdf" class="btn btn2">Download CV</a>
         </div>
         <div class="image">
@@ -125,7 +138,7 @@
     <!-------------------------resume---------------------- -->
     <div id="resume">
         <div class="container">
-            <h1 class="sub-title">My Work</h1>
+            <h1 class="sub-title">Project</h1>
             <div class="work-list">
                 <div class="work">
                     <img src="project1.png" alt="A">
@@ -176,7 +189,7 @@
         <div class="container">
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
+                    <h1 class="sub-title">Contact Me!</h1>
                     <p><i class="fa-solid fa-envelope"></i> k.shivangi601@gmail.com</p>
                     <p><i class="fa-solid fa-mobile-screen"></i>  8791501797</p>
                     <p><i class="fa-solid fa-house"></i> Agra, Uttar Pradesh </p>
@@ -194,13 +207,20 @@
                        <input type="text" name="Name" placeholder="Your Name" required>
                        <input type="email" name="Email" placeholder="your Email" required>
                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea> 
-                       <button type="submit" class="btn btn2">submit</button>
+                       <button type="submit" class="btn btn2">send Message</button>
                     </form>
                     <span id="msg"></span>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', '&amp; Software Engineer'],
+          typeSpeed: 100,
+        });
+      </script>
     <script>
         var tablinks=document.getElementsByClassName("tab-links");
         var tabcontents=document.getElementsByClassName("tab-contents");
